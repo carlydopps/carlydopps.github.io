@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.travel-grid-img {
+  height: 14rem;
+  object-fit: cover;
+}
