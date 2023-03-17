@@ -1,0 +1,13 @@
+.btn-icon {
+    background: none;
+    border: none;
+}
+
+.btn-icon:hover {
+    color: rgb(93, 93, 93)
+}
+
+.travel-grid-img {
+height: 14rem;
+object-fit: cover;
+}

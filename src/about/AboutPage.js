@@ -1,8 +1,8 @@
 export const AboutPage = () => {
-    return <main class="container">
+    return <main class="container mt-5">
         <section>
             <div class="container">
-                <div class="row align-items-center">
+                <div class="row align-items-center mt-5">
                     <img src="https://res.cloudinary.com/dupram4w7/image/upload/v1678406601/DSC_0088_be57xc.jpg" alt="Profile image" class="img-responsive col col-sm-4"/>
                     <div class="col">
                         <h1 class="display-4 text-center">Hi, I'm Carly!</h1>
