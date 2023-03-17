@@ -4,6 +4,7 @@ import { Home } from "./home/Home"
 import { NavBar } from "./nav/NavBar"
 import { Project } from "./projects/Project"
 import { ProjectList } from "./projects/ProjectList"
+import './style.css'
 
 export const Website = () => {
   return <>
