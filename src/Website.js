@@ -4,7 +4,6 @@ import { Home } from "./components/home/Home"
 import { NavBar } from "./components/nav/NavBar"
 import { Project } from "./components/projects/Project"
 import { ProjectList } from "./components/projects/ProjectList"
-import 'bootstrap/dist/css/bootstrap.css';
 import './components/style.css'
 
 export const Website = () => {
