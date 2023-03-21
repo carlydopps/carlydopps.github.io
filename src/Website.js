@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import { AboutPage } from "./about/AboutPage"
-import { Home } from "./home/Home"
-import { NavBar } from "./nav/NavBar"
-import { Project } from "./projects/Project"
-import { ProjectList } from "./projects/ProjectList"
-import './style.css'
+import { AboutPage } from "./components/about/AboutPage"
+import { Home } from "./components/home/Home"
+import { NavBar } from "./components/nav/NavBar"
+import { Project } from "./components/projects/Project"
+import { ProjectList } from "./components/projects/ProjectList"
+import './components/style.css'
 
 export const Website = () => {
   return <>
