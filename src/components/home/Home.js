@@ -21,7 +21,7 @@ export const Home = () => {
             <img src="https://res.cloudinary.com/dupram4w7/image/upload/v1678851975/pexels-karolina-grabowska-8003529_j0k3ge.jpg" class="card-img-top"></img>
             <div class="card-img-overlay mt-5 shadow">
                 <div class="m-5 ">
-                    <h1 class="display-2 fw-light">Carly Doppelheuer</h1>
+                    <h1 class="display-2 fw-medium">Carly Doppelheuer</h1>
                     <p class="fs-6">I'm an adventurous engineer who leans into learning, fails fast, and loves to build together with a team.</p>
                 </div>
             </div>
