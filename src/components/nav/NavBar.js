@@ -9,6 +9,7 @@ export const NavBar = () => {
             <button onClick={() => navigate("/")} className="navbar-btn">Home</button>
             <button onClick={() => navigate("/about")} className="navbar-btn">About</button>
             <button onClick={() => navigate("/projects")} className="navbar-btn">Projects</button>
+            <button onClick={() => navigate("/tech")} className="navbar-btn">Tech</button>
         </section>
         <Outlet/>
     </>
