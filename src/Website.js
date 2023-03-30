@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { AboutPage } from "./components/about/AboutPage"
+import { Goals } from "./components/goals/Goals"
 import { Home } from "./components/home/Home"
 import { NavBar } from "./components/nav/NavBar"
 import { Project } from "./components/projects/Project"
@@ -16,6 +17,7 @@ export const Website = () => {
         <Route path="projects" element={<ProjectList />}/>
         <Route path="projects/:projectId" element={<Project />}/>
         <Route path="tech" element={<Tech />}/>
+        <Route path="goals" element={<Goals />}/>
     </Routes>
   </>
 }

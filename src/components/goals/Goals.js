@@ -1,0 +1,21 @@
+export const Goals = () => {
+
+    return <section>
+        <h5 className="display-4 text-center">Goals</h5>
+        <p className="text-center text-muted">5 year / 10 year / 30 year</p>
+        <div className="container w-50">
+            <div className="row mb-3">
+                <h5 className="display-6 text-end col col-sm-2 m-0">5</h5>
+                <p className="col d-flex align-items-center m-0">I want to dive into a dynamic, fast-paced environment. I like the idea of taking on new challenges each day and knowing we can rely on our strong team to get through it. My previous career taught me that stagnancy scares me while a little chaos energizes me, so I want to lean into that to learn as much as I can.</p>
+            </div>
+            <div className="row mb-3">
+                <h5 className="display-6 text-end col col-sm-2 m-0">10</h5>
+                <p className="col d-flex align-items-center m-0">I want to work toward full-stack. I like seeing the full process connect from backend to frontend and the combination of the creativity of front-end combined with the deep work of back-end.</p>
+            </div>
+            <div className="row mb-3">
+                <h5 className="display-6 text-end col col-sm-2 m-0">30</h5>
+                <p className="col d-flex align-items-center m-0">Under construction!</p>
+            </div>
+        </div>
+    </section>
+}

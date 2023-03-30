@@ -10,6 +10,7 @@ export const NavBar = () => {
             <button onClick={() => navigate("/about")} className="navbar-btn">About</button>
             <button onClick={() => navigate("/projects")} className="navbar-btn">Projects</button>
             <button onClick={() => navigate("/tech")} className="navbar-btn">Tech</button>
+            <button onClick={() => navigate("/goals")} className="navbar-btn">Goals</button>
         </section>
         <Outlet/>
     </>
