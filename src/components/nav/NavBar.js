@@ -4,14 +4,23 @@ export const NavBar = () => {
 
     const navigate = useNavigate()
 
-    return <>
-        <section className="navbar">
-            <button onClick={() => navigate("/")} className="navbar-btn">Home</button>
-            <button onClick={() => navigate("/about")} className="navbar-btn">About</button>
-            <button onClick={() => navigate("/projects")} className="navbar-btn">Projects</button>
-            <button onClick={() => navigate("/tech")} className="navbar-btn">Tech</button>
-            <button onClick={() => navigate("/goals")} className="navbar-btn">Goals</button>
-        </section>
-        <Outlet/>
-    </>
+    return <nav id="navbar" className="navbar navbar-light fixed-top d-flex justify-content-end">
+        <ul className="nav">
+            <li onClick={() => navigate("/")} className="nav-item">
+                <a class="nav-link text-decoration-none" href="#home">Home</a>
+            </li>
+            <li onClick={() => navigate("/about")} className="nav-item">
+                <a class="nav-link text-decoration-none" href="#about">About</a>
+            </li>
+            <li onClick={() => navigate("/projects")} className="nav-item">
+                <a class="nav-link text-decoration-none" href="#projects">Projects</a>
+            </li>
+            <li onClick={() => navigate("/tech")} className="nav-item">
+                <a class="nav-link text-decoration-none" href="#tech">Tech</a>
+            </li>
+            <li onClick={() => navigate("/goals")} className="nav-item">
+                <a class="nav-link text-decoration-none" href="#goals">Goals</a>
+            </li>
+        </ul>
+    </nav>
 }

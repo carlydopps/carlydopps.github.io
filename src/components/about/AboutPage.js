@@ -1,5 +1,5 @@
 export const AboutPage = () => {
-    return <main class="container mt-5">
+    return <main class="container mt-5" id="about">
         <section>
             <div class="container">
                 <div class="row align-items-center mt-5">
@@ -16,12 +16,11 @@ export const AboutPage = () => {
                 <h3 class="display-6 col col-md-2">Why</h3>
                 <div class="col text-muted">
                     <p>I was drawn to programming through a love of math, language, and creativity. Since then, I have become even more intrigued by the computational yet creative mindset programming ignites. I'm continuously drawn to it because it's often a blank slate that you have to jump into and start building and creating, or it's an intricate web where you have to find the loose thread that’s making the entire project unravel.</p>
-                    <p>I also love that in programming you learn not only about code, but you learn a lot about who you are as a teammate. You figure out who you are when you lead but more importantly who you are when you fail. </p>
                 </div>
             </div>
             <div class="row">
                 <h3 class="display-6 col col-md-2">When</h3>
-                <p class="col text-muted">Around a year ago I left a job I loved because I found a passion for programming. I discovered programming while working with computer science graduate students. I started studying the fundamentals to better understand the students' curriculum, and it sparked an ambition to use concepts of programming to improve workflows across all engineering programs. I dove into building new tools to automate tasks, reduce error, and increase efficiency. It was just a small curiosity for what programming was, but it turned into a career leap and I haven’t looked back since.</p>
+                <p class="col text-muted">Around a year ago I left a job I loved because I found a passion for programming. I discovered programming while working with computer science graduate students. I started studying the fundamentals to better understand the students' curriculum, and it sparked an ambition to use concepts of programming to improve workflows across all engineering programs. I dove into building new tools to automate tasks, reduce error, and increase efficiency. It started as just a small curiosity but turned into a career leap, and I haven’t looked back since.</p>
             </div>
             <div class="row">
                 <h3 class="display-6 col col-md-2">Where</h3>
@@ -29,7 +28,7 @@ export const AboutPage = () => {
             </div>
             <div class="row">
                 <h3 class="display-6 col col-md-2">How</h3>
-                <p class="col text-muted">I’m an autonomous learner who seeks new projects and languages to expand my skills. I value the balance of humility to know when to ask for help along with autonomy to research errors and new concepts before doing so. I also value a deep understanding of the fundamentals and ensuring a strong foundation to build upon. I compare it to math in the way that the fundamentals are the building blocks you'll use again and again to conceptualize increasingly advanced topics.</p>
+                <p class="col text-muted">I’m an autonomous learner who seeks new projects and languages to expand my skills. I value the balance of humility to know when to ask for help along with autonomy to research errors and new concepts before doing so. I also value a deep understanding of the fundamentals and ensuring a strong foundation to build upon.</p>
             </div>
         </section>
         <section class="container">

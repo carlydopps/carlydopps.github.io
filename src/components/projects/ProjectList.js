@@ -24,10 +24,10 @@ export const ProjectList = () => {
 
     const vid = document.getElementById("projectVideo");
 
-    return <>
-        <section className="container project-gallery">
-            <div className="row row-cols-1 row-cols-lg-3 d-flex justify-content-center">
-                <button className="card col m-3" data-bs-toggle="modal" data-bs-target="#project-modal" 
+    return <div id="projects">
+        <section className="container project-gallery mt-5 d-flex justify-content-center">
+            <div className="row d-flex justify-content-center">
+                <button className="card col-lg m-3" data-bs-toggle="modal" data-bs-target="#project-modal" 
                 onClick={(event) => {event.preventDefault()
                     setProject({
                         cover: makr.cover,
@@ -42,7 +42,7 @@ export const ProjectList = () => {
                         <p className="card-text">{makr.body}</p>
                     </div>
                 </button>
-                <button className="card col m-3" data-bs-toggle="modal" data-bs-target="#project-modal"
+                <button className="card col-lg m-3" data-bs-toggle="modal" data-bs-target="#project-modal"
                     onClick={(event) => {event.preventDefault()
                         setProject({
                             cover: trouvaille.cover,
@@ -96,5 +96,5 @@ export const ProjectList = () => {
                 </div>
             </div>
         </div>
-    </>
+    </div>
 }

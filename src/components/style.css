@@ -11,3 +11,25 @@
 height: 14rem;
 object-fit: cover;
 }
+
+#projects, #about, #tech, #goals {
+    margin: 5rem auto;
+}
+
+#navbar {
+    background-color: rgba(245, 245, 245, 0.326);
+    font-size: larger;
+    padding: 2rem;
+}
+
+.header {
+    margin: 10rem 5rem;
+}
+
+.nav-link {
+    color: gray;
+}
+
+.nav-link:hover {
+    color: orange;
+}
