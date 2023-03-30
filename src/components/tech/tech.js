@@ -4,7 +4,7 @@ export const Tech = () => {
 
     const skills = ['REST APIs', 'CRUD functionality', 'Integration testing', 'OOP', 'Relationship diagrams', 'Wireframing']
 
-    return <section>
+    return <section id="tech">
         <h2 className="text-center display-4">Tech Stack</h2>
         <div className="container container-fluid tech-gallery d-flex justify-content-center">
             <div className="row m-5 justify-content-center">
