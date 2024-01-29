@@ -5,13 +5,6 @@ export const NavBar = () => {
     const navigate = useNavigate()
 
     return <div id='navbar' className='navbar'>
-        <div class='navbar__icons'>
-            {
-                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')}>
-                    {icons[contact]}
-                </button>)
-            }
-        </div>
         <div class='navbar__links'>
             <p class='nav-link text-decoration-none home-title' href='#home'>Carly</p>
             <ul className='nav'>
@@ -28,6 +21,13 @@ export const NavBar = () => {
                     <a class='nav-link text-decoration-none' href='#home'>Home</a>
                 </li>
             </ul>
+        </div>
+        <div class='navbar__icons'>
+            {
+                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')}>
+                    {icons[contact]}
+                </button>)
+            }
         </div>
     </div>
 }
