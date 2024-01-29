@@ -1,6 +1,10 @@
+@import './globals.scss';
+@import './style.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
 body {
   margin: 0;
-  font-family: 'Questrial', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
