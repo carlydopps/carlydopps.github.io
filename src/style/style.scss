@@ -242,11 +242,21 @@
                     text-decoration: none;
                     padding: 0 1rem;
                     color: $fontLight;
+                    align-items: center;
+
+                    p {
+                        margin: 0;
+                    }
                 }
 
                 a:hover {
                     color: white;
                 }
+
+                a:not(:last-child) {
+                    border-right: 1px solid #e2e2e2;
+                    padding-right: 1.5rem
+                  }
             }
         }
     }
