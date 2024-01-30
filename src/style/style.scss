@@ -29,7 +29,8 @@
             justify-content: right;
 
             svg:hover {
-                fill: $fontNavHover !important;
+                fill: white !important;
+                transform: translateY(-0.1rem);
             }
         }
     }
@@ -66,7 +67,10 @@
                 }
                 
                 .nav-link:hover {
-                    color: $fontNavHover;
+                    // color: $fontNavHover;
+                    color: white;
+                    transform: scale(1.01);
+                    font-weight: 700;
                 }
             }
         }
@@ -91,7 +95,7 @@
     }
 
     .header-details {
-        padding: 8rem 5rem;
+        padding: 8rem 5rem 6rem 5rem;
         background-color: $backgroundDark;
         
         .header-details__subtitle {
@@ -130,7 +134,16 @@
 }
 
 .projects {
-    padding: 5rem auto 3rem auto;
+    margin: 2rem auto;
+
+    h2 {
+        letter-spacing: 1rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $backgroundMedium;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
 
     .projects-gallery {
         display: flex;
@@ -138,15 +151,18 @@
         background-color: $backgroundLight;
 
         .projects-gallery__card {
-            padding: 0;
+            margin: 0;
+            padding: 1rem;
             border: none;
             border-radius: 0;
             color: $fontLight;
+            background-color: $backgroundDark;
 
             img {
                 border-radius: 0;
-                height: 45vh;
-                object-fit: cover;
+                width: 100%;
+                object-fit: contain;
+                justify-content: center;
             }
 
             div {
@@ -161,11 +177,11 @@
                 }
             }
         }
+    }
 
-        .projects-gallery__card:hover {
-            transform: scale(1.01);
-            opacity: 0.9;
-        }
+    .projects-gallery__card:hover {
+        transform: scale(1.01);
+        opacity: 0.9;
     }
 
     .projects-modal {
@@ -245,7 +261,7 @@
         display: grid;
         grid-template-columns: auto 1fr;
 
-        h5 {
+        h2 {
             letter-spacing: 1rem;
             font-size: 3rem;
             text-transform: uppercase;
@@ -288,7 +304,7 @@
     }
 
     .tech-skills {
-        h5 {
+        h2 {
             padding-top: 3rem;
         }
         

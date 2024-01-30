@@ -36,10 +36,11 @@ export const Projects = () => {
     }
 
     return <div id='projects' class='projects'>
+        <h2>Projects</h2>
         <div className='projects-gallery row'>
             {
                 Object.keys(projects).map(project => {
-                    return <button className='projects-gallery__card card col-lg' data-bs-toggle='modal' data-bs-target='#project-modal'
+                    return <button className='projects-gallery__card card col-lg hover-overlay' data-bs-toggle='modal' data-bs-target='#project-modal'
                         onClick={(event) => {event.preventDefault()
                             setProject({
                                 cover: projects[project].cover,

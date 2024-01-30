@@ -8,7 +8,7 @@ export const Tech = () => {
 
     return <div id='tech' class='tech'>
             <div className='tech-technologies'>
-                <h5>Tech</h5>
+                <h2>Tech</h2>
                 <ul>
                     {
                         techStack.technologies.map(tech => <li>
@@ -19,7 +19,7 @@ export const Tech = () => {
                 </ul>
             </div>
             <div className='tech-skills'>
-                <h5>Skill</h5>
+                <h2>Skill</h2>
                 <ul>
                     {techStack.skills.map(skill => <li>{skill}</li>)}
                 </ul>
