@@ -16,6 +16,12 @@ export const Projects = () => {
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
             detail: ['Web3 electron app and web application where developers can index and query live, multi-chain blockchain data though custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
             tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
+            links: {
+                blog: {
+                    title: 'View blog',
+                    url: 'https://spec.dev/'
+                },
+            },
         },
         makr: {
             title: 'Makr',
@@ -24,6 +30,16 @@ export const Projects = () => {
             cover: makrVideo,
             detail: ['Front-end web application where DIYers can connect with professionals for expert advice on their project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
             tech: ['javaScript', 'react', 'JSON', 'HTML5', 'CSS', 'git'],
+            links: {
+                demo: {
+                    title: 'View demo',
+                    url: 'https://vimeo.com/783445138'
+                },
+                frontEndCode: {
+                    title: 'Front-end Code',
+                    url: 'https://github.com/carlydopps/makr'
+                },
+            },
         },
         trouvaille: {
             title: 'Trouvaille',
@@ -32,6 +48,16 @@ export const Projects = () => {
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078456/Screen_Shot_2023-01-09_at_12.46.40_PM_sv2crx.png',
             detail: ['Full-stack web application where travelers can discover and share personal adventures for those who want to take the road less traveled', 'Utilized JavaScript (React) and Python (Django) with CRUD functionality and REST API', 'Integration testing', 'API testing in Postman', 'Responsive UX/UI'],
             tech: ['javaScript', 'react', 'python', 'django', 'HTML5', 'CSS', 'git'],
+            links: {
+                frontEndCode: {
+                    title: 'Front-end Code',
+                    url: 'https://github.com/carlydopps/trouvaille'
+                },
+                backEndCode: {
+                    title: 'Back-end Code',
+                    url: 'https://github.com/carlydopps/trouvaille-server'
+                },
+            },
         },
     }
 
@@ -46,7 +72,8 @@ export const Projects = () => {
                                 cover: projects[project].cover,
                                 title: projects[project].title,
                                 detail: projects[project].detail,
-                                tech: projects[project].tech
+                                tech: projects[project].tech,
+                                links: projects[project].links,
                             })
                         }}>
                         <img src={projects[project].thumbnail} className='card-img-top'></img>
@@ -80,19 +107,11 @@ export const Projects = () => {
                     </div>
                     <div className='modal-footer p-4 d-flex justify-content-center'>
                         {
-                            project.title === projects.trouvaille.title
-                            ? <>
-                                <a href='https://github.com/carlydopps/trouvaille'>Front-end code</a>
-                                <p>|</p>
-                                <a href='https://github.com/carlydopps/trouvaille-server'>Back-end code</a>
-                                <p>|</p>
-                                <a>Demo coming soon!</a>
-                            </>
-                            : <>
-                                <a href='https://vimeo.com/783445138'>View demo</a>
-                                <p>|</p>
-                                <a href='https://github.com/carlydopps/makr'>View code</a>
-                            </>
+                            project.title
+                            ? Object.entries(project.links).map(([k, v]) => <a href={v.url} target='_blank'>
+                                <p>{v.title}</p>
+                            </a>)
+                            : <></>
                         }
                     </div>
                 </div>
