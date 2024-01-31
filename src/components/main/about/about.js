@@ -20,38 +20,38 @@ export const About = () => {
             ],
         },
     }
-    return <div id='about' class='about'>
-        <section class='about-intro'>
-            <div class='about-intro__images'>
+    return <div id='about' className='about'>
+        <section className='about-intro'>
+            <div className='about-intro__images'>
                 <img src='https://res.cloudinary.com/dupram4w7/image/upload/v1706224543/DSC_0048_copy_3_yjz8jt.jpg' alt='Profile image'/>
             </div>
-            <div class='about-intro__text'>
+            <div className='about-intro__text'>
                 <h1>{sections.intro.title}</h1>
                 <h3>{sections.intro.subtitle}</h3>
-                <p class='lead text-muted'>{sections.intro.details}</p>
+                <p className='lead text-muted'>{sections.intro.details}</p>
             </div>
         </section>
-        <section class='about-questions'>
+        <section className='about-questions'>
             {
                 Object.keys(sections.questions).map(q => {
-                    return <div>
+                    return <div key={q}>
                         <h3>{q}</h3>
                         <p>{sections.questions[q]}</p>
                     </div>
                 })
             }
         </section>
-        <section class='about-personal'>
-            <div class='about-personal__photos'>
-                <img class='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837100/image_4_qnkc9n.jpg'/>
-                <img class='img-responsive travel-grid-img' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837098/image_3_dtilev.jpg'/>
-                <img class='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837286/IMG_8045_zu2kio.jpg'/>
-                <img class='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1673365249/eicshdaqcbjw2wnrsxyc.jpg'/>
+        <section className='about-personal'>
+            <div className='about-personal__photos'>
+                <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837100/image_4_qnkc9n.jpg'/>
+                <img className='img-responsive travel-grid-img' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837098/image_3_dtilev.jpg'/>
+                <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837286/IMG_8045_zu2kio.jpg'/>
+                <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1673365249/eicshdaqcbjw2wnrsxyc.jpg'/>
             </div>
-            <div class='about-personal__desc'>
+            <div className='about-personal__desc'>
                 <h3>{sections.personal.title}</h3>
                 {
-                    sections.personal.details.map(detail => <p>{detail}</p>)
+                    sections.personal.details.map((detail, index) => <p key={index}>{detail}</p>)
                 }
             </div>
         </section>

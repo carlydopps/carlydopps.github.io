@@ -61,12 +61,12 @@ export const Projects = () => {
         },
     }
 
-    return <div id='projects' class='projects'>
+    return <div id='projects' className='projects'>
         <h2>Projects</h2>
         <div className='projects-gallery row'>
             {
                 Object.keys(projects).map(project => {
-                    return <button className='projects-gallery__card card col-lg hover-overlay' data-bs-toggle='modal' data-bs-target='#project-modal'
+                    return <button className='projects-gallery__card card col-lg hover-overlay' data-bs-toggle='modal' data-bs-target='#project-modal' key={project}
                         onClick={(event) => {event.preventDefault()
                             setProject({
                                 cover: projects[project].cover,
@@ -98,17 +98,17 @@ export const Projects = () => {
                             : <img src={project.cover} className='img-fluid'/>
                         }
                         <h5 className='modal-title text-center m-4' id='exampleModalLabel'>{project.title}</h5>
-                        <ul class='project-modal__details'>
-                            {project.detail.map(detail => <li>{detail}</li>)}
+                        <ul className='project-modal__details'>
+                            {project.detail.map((detail, index) => <li key={index}>{detail}</li>)}
                         </ul>
-                        <ul class='project-modal__tech'>
-                            {project.tech.map(t => <li>{icons[t]}</li>)}
+                        <ul className='project-modal__tech'>
+                            {project.tech.map(t => <li key={t}>{icons[t]}</li>)}
                         </ul>
                     </div>
                     <div className='modal-footer p-4 d-flex justify-content-center'>
                         {
                             project.title
-                            ? Object.entries(project.links).map(([k, v]) => <a href={v.url} target='_blank'>
+                            ? Object.entries(project.links).map(([k, v]) => <a href={v.url} target='_blank' key={v}>
                                 <p>{v.title}</p>
                             </a>)
                             : <></>

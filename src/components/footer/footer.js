@@ -11,13 +11,13 @@ export const Footer = () => {
         })
     }
 
-    return <div class='footer'>
-        <ul class='footer-pages'>
-            {pages.map(page => <li onClick={(e) => scrollTo(e, page)}>{page}</li>)}
+    return <div className='footer'>
+        <ul className='footer-pages'>
+            {pages.map(page => <li key={page} onClick={(e) => scrollTo(e, page)}>{page}</li>)}
         </ul>
-        <div class='footer-icons'>
+        <div className='footer-icons'>
             {
-                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')}>
+                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')} key={contact}>
                     {icons[contact]}
                 </button>)
             }

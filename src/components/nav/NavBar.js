@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom'
 import { contacts, icons, pages } from '../../utils/constants'
 
 export const NavBar = () => {
@@ -13,15 +12,15 @@ export const NavBar = () => {
     }
 
     return <div id='navbar' className='navbar'>
-        <div class='navbar__links'>
-            <p class='nav-link text-decoration-none home-title' href='#home'>Carly</p>
+        <div className='navbar__links'>
+            <p className='nav-link text-decoration-none home-title' href='#home'>Carly</p>
             <ul className='nav'>
-                {pages.map(page => <li class='nav-link' onClick={(e) => scrollTo(e, page)}>{page}</li>)}
+                {pages.map(page => <li className='nav-link' key={page} onClick={(e) => scrollTo(e, page)}>{page}</li>)}
             </ul>
         </div>
-        <div class='navbar__icons'>
+        <div className='navbar__icons'>
             {
-                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')}>
+                Object.keys(contacts).map(contact => <button onClick={()=> window.open(contacts[contact].link, '_blank')} key={contact}>
                     {icons[contact]}
                 </button>)
             }
