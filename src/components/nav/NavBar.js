@@ -1,25 +1,22 @@
 import { useNavigate } from 'react-router-dom'
-import { contacts, icons } from '../../utils/constants'
+import { contacts, icons, pages } from '../../utils/constants'
 
 export const NavBar = () => {
-    const navigate = useNavigate()
+    const scrollTo = (e, page) => {
+        e.preventDefault()
+        console.log(e)
+        const element = document.getElementById(page)
+        element.scrollIntoView({
+            block: 'start',
+            behavior: 'smooth'
+        })
+    }
 
     return <div id='navbar' className='navbar'>
         <div class='navbar__links'>
             <p class='nav-link text-decoration-none home-title' href='#home'>Carly</p>
             <ul className='nav'>
-                <li onClick={() => navigate('/projects')}>
-                    <a class='nav-link text-decoration-none' href='#projects'>Projects</a>
-                </li>
-                <li onClick={() => navigate('/tech')}>
-                    <a class='nav-link text-decoration-none' href='#tech'>Tech</a>
-                </li>
-                <li onClick={() => navigate('/about')}>
-                    <a class='nav-link text-decoration-none' href='#about'>About</a>
-                </li>
-                <li onClick={() => navigate('/home')}>
-                    <a class='nav-link text-decoration-none' href='#home'>Home</a>
-                </li>
+                {pages.map(page => <li class='nav-link' onClick={(e) => scrollTo(e, page)}>{page}</li>)}
             </ul>
         </div>
         <div class='navbar__icons'>

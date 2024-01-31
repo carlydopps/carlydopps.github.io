@@ -1,6 +1,6 @@
 import { algolia, bash, bootstrap, CSS, deno, django, electron, email, git, github, HTML5, javaScript, JSON, linkedIn, postgreSQL, postman, python, react, redis, sass, typeORM, typeScript } from "./svgs";
 
-export const pages = ['projects', 'tech', 'about', 'home']
+export const pages = ['home', 'projects', 'tech', 'about']
 
 export const contacts = {
     linkedIn: {
@@ -17,25 +17,26 @@ export const contacts = {
     },
 }
 
-const tech = {
+export const tech = {
     PYTHON: 'python',
     DJANGO: 'django',
     JAVASCRIPT: 'javaScript',
     REACT: 'react',
-    POSTGRESQL: 'postgreSQL',
     TYPESCRIPT: 'typeScript',
     TYPEORM: 'typeORM',
-    DENO: 'deno',
+    POSTGRESQL: 'postgreSQL',
     ELECTRON: 'electron',
-    GIT: 'git',
-    SASS: 'sass',
-    BASH: 'bash',
+    DENO: 'deno',
+    JSON: 'JSON',
     REDIS: 'redis',
+    BASH: 'bash',
+    GIT: 'git',
     ALGOLIA: 'algolia',
     POSTMAN: 'postman',
-    JSON: 'JSON',
+    SASS: 'sass',
+    BOOTSTRAP: 'bootstrap',
     HTML5: 'HTML5',
-
+    CSS: 'CSS',
 }
 
 export const icons = {

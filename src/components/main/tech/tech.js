@@ -1,9 +1,9 @@
-import { icons } from "../../../utils/constants"
+import { icons, tech } from "../../../utils/constants"
 
 export const Tech = () => {
     const techStack = {
-        technologies: ['python', 'django', 'javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron', 'JSON', 'redis', 'bash', 'git', 'algolia', 'postman', 'sass', 'bootstrap', 'HTML5'],
-        skills: ['Serverless functions', 'Delayed jobs', 'Full-Text Search', 'Github integrations', 'Integration testing', 'Object Oriented Programming', 'REST API', 'CLI', 'CRUD', 'ERD'],
+        technologies: Object.values(tech).slice(0, -1),
+        skills: ['Full-Text Search', 'Serverless functions', 'Delayed jobs', 'Github integrations', 'Integration testing', 'Object Oriented Programming', 'CLI', 'REST API', 'CRUD', 'ERDs'],
     }
 
     return <div id='tech' class='tech'>
