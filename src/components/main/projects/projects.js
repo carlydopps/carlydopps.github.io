@@ -9,24 +9,6 @@ export const Projects = () => {
     })
     const vid = document.getElementById('projectVideo')
     const projects = {
-        makr: {
-            title: 'Makr',
-            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679076417/Screen_Shot_2023-03-17_at_1.06.03_PM_yrdqtu.png',
-            body: 'Makr is a platform where DIYers can connect with professionals for expert advice on specific project needs. By making expert feedback more accessible and customized, the goal is to help Makrs accomplish higher quality projects more efficiently and, in turn, create additional employment and remote opportunities for professionals.',
-            cover: makrVideo,
-            detail: ['Front-end web application where DIYers can connect with professionals for expert advice on their project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
-            tech: ['javaScript', 'react', 'JSON', 'HTML5', 'CSS', 'git'],
-            links: {
-                demo: {
-                    title: 'View demo',
-                    url: 'https://vimeo.com/783445138'
-                },
-                frontEndCode: {
-                    title: 'Front-end Code',
-                    url: 'https://github.com/carlydopps/makr'
-                },
-            },
-        },
         trouvaille: {
             title: 'Trouvaille',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078958/Screen_Shot_2023-03-17_at_1.42.16_PM_fbqvtq.png',
@@ -42,6 +24,24 @@ export const Projects = () => {
                 backEndCode: {
                     title: 'Back-end Code',
                     url: 'https://github.com/carlydopps/trouvaille-server'
+                },
+            },
+        },
+        makr: {
+            title: 'Makr',
+            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679076417/Screen_Shot_2023-03-17_at_1.06.03_PM_yrdqtu.png',
+            body: 'Makr is a platform where DIYers can connect with professionals for expert advice on specific project needs. By making expert feedback more accessible and customized, the goal is to help Makrs accomplish higher quality projects more efficiently and, in turn, create additional employment and remote opportunities for professionals.',
+            cover: makrVideo,
+            detail: ['Front-end web application where DIYers can connect with professionals for expert advice on their project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
+            tech: ['javaScript', 'react', 'JSON', 'HTML5', 'CSS', 'git'],
+            links: {
+                demo: {
+                    title: 'View demo',
+                    url: 'https://vimeo.com/783445138'
+                },
+                frontEndCode: {
+                    title: 'Front-end Code',
+                    url: 'https://github.com/carlydopps/makr'
                 },
             },
         },
