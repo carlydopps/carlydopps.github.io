@@ -93,14 +93,14 @@
     }
 
     .header-details {
-        padding: 8rem 5rem 1rem 5rem;
+        padding: 7rem 5rem 1rem 5rem;
         background-color: $backgroundDark;
         
         .header-details__subtitle {
             width: 80vw;
             color: $fontLight;
             font-size: 1rem;
-            letter-spacing: 0.75rem;
+            letter-spacing: 0.3rem;
             text-transform: uppercase;
             text-align: center;
         }
@@ -133,7 +133,7 @@
 
 .projects {
     margin: 2rem auto;
-    padding-top: 5rem;
+    padding-top: 4rem;
 
     h2 {
         letter-spacing: 1rem;

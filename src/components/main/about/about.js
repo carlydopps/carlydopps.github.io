@@ -14,7 +14,7 @@ export const About = () => {
         personal: {
             title: 'Behind the Scenes',
             details: [
-                `A few years ago, my husband and I decided to pursue a childhood dream of adventuring across the country. We spent two years working remotely and traveling the country in a camper that we renovated together. Sometimes we were the only people we knew on a little road of an unknown town in a brand new state, and it taught me so much about enjoying the ups and downs of the adventure and the serendipity of chance encounters.`,
+                `A few years ago, my husband and I decided to pursue a college dream of adventuring across the country. We spent two years working remotely and traveling the country in a camper that we renovated together. Sometimes we were the only people we knew on a little road of an unknown town in a brand new state, and it taught me so much about enjoying the ups and downs of the adventure and the serendipity of chance encounters.`,
                 `'When everything goes wrong, that's when the adventure begins.' - Yvon Chouinard`,
                 `Two years, twenty-nine states, four flat tires, and a lot of broken things later, it still feels like a dream.`
             ],
