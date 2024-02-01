@@ -1,6 +1,6 @@
 export const Header = () => {
     return <div id='home' className='header'>
-        <div className='header-img'>
+        <div id='header-img' className='header-img'>
             <img src='https://res.cloudinary.com/dupram4w7/image/upload/v1706553080/pexels-karolina-grabowska-8003529_j0k3ge_0fab9f.jpg'></img>
         </div>
         <div className='header-details'>

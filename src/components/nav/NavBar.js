@@ -11,6 +11,35 @@ export const NavBar = () => {
         })
     }
 
+    let scrollTarget
+    let hideTarget
+    window.onload = function() {
+        const target = document.getElementById('header-img').getBoundingClientRect().bottom - document.getElementById('header-img').getBoundingClientRect().top
+        hideTarget = target*0.8
+        scrollTarget = target*0.75
+    }
+
+    window.onresize = function() {
+        const target = document.getElementById('header-img').getBoundingClientRect().bottom - document.getElementById('header-img').getBoundingClientRect().top
+        hideTarget = target*0.8
+        scrollTarget = target*0.75
+    }
+
+    window.onscroll = function() {
+        const navbar = document.getElementById('navbar')
+        if (window.scrollY > scrollTarget) {
+          navbar.classList.add('scrolled')
+        } else {
+          navbar.classList.remove('scrolled')
+        }
+
+        if (window.scrollY > hideTarget) {
+            navbar.classList.add('hide')
+        } else {
+            navbar.classList.remove('hide')
+        }  
+      }
+
     return <div id='navbar' className='navbar'>
         <div className='navbar__links'>
             <p className='nav-link text-decoration-none home-title' href='#home'>Carly</p>

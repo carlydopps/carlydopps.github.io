@@ -47,7 +47,7 @@ export const Projects = () => {
         },
         spec: {
             title: 'Spec',
-            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
+            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
             body: 'Spec is a Web3 platform that generates live, multi-chain, Postgres tables for all events and transactions in a blockchain protocol. It automates the process of decoding, enriching, integrating, and maintaining data through instant, custom tables, allowing users to seamlessly index and query transactions with high efficiency and real-time accuracy.',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
             detail: ['Web3 electron app and web application where developers can index and query live, multi-chain blockchain data though custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],

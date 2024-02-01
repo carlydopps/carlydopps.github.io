@@ -8,12 +8,13 @@
 }
 
 .navbar {
-    padding: 2rem;
+    padding: 2rem !important;
     justify-content: right !important;
     flex-wrap: nowrap;
-    position: fixed top !important;
+    position: fixed !important;
     width: 100%;
     z-index: 1;
+    transition: all 0.5s ease-in;
 
     .navbar__icons {
         display: flex;
@@ -49,7 +50,6 @@
             color: $fontLight;
             text-align: center;
             margin: 0;
-            padding-top: 2rem;
         }
 
         .nav {
@@ -75,13 +75,23 @@
     }
 }
 
+.scrolled {
+    background-color: $backgroundDark;
+    outline: solid 1rem $borderTransparent;
+}
+
+.hide {
+    p {
+        display: none;
+    }
+}
+
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: $backgroundDark;
-    margin-top: -10rem;
 
     .header-img {
         width: 100%;
