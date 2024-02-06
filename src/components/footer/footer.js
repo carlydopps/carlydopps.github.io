@@ -3,7 +3,6 @@ import { icons, pages, contacts } from "../../utils/constants"
 export const Footer = () => {
     const scrollTo = (e, page) => {
         e.preventDefault()
-        console.log(e)
         const element = document.getElementById(page)
         element.scrollIntoView({
             block: 'start',

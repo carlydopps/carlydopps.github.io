@@ -1,3 +1,7 @@
+* {
+    scroll-margin-top: 6rem;
+}
+
 #root {
     background-color: $backgroundDark;
 }
@@ -15,7 +19,7 @@
     width: 100%;
     z-index: 1;
     transition: all 0.5s ease-in;
-
+ 
     .navbar__icons {
         display: flex;
         align-items: center;

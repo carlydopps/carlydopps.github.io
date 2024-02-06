@@ -3,7 +3,6 @@ import { contacts, icons, pages } from '../../utils/constants'
 export const NavBar = () => {
     const scrollTo = (e, page) => {
         e.preventDefault()
-        console.log(e)
         const element = document.getElementById(page)
         element.scrollIntoView({
             block: 'start',
