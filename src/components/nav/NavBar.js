@@ -10,8 +10,8 @@ export const NavBar = () => {
         })
     }
 
-    let scrollTarget
-    let hideTarget
+    let scrollTarget = 100
+    let hideTarget = 100
     window.onload = function() {
         const target = document.getElementById('header-img').getBoundingClientRect().bottom - document.getElementById('header-img').getBoundingClientRect().top
         hideTarget = target*0.8

@@ -48,9 +48,9 @@ export const Projects = () => {
         spec: {
             title: 'Spec',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
-            body: 'Spec is a Web3 platform that generates live, multi-chain, Postgres tables for all events and transactions in a blockchain protocol',
+            body: 'Spec is a Web3 application that generates live, multi-chain, Postgres tables for events and transactions in a blockchain protocol',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
-            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data though instant, custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
+            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data through instant, custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
             tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
             links: {
                 blog: {
