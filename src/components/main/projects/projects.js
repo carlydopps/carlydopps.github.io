@@ -12,9 +12,9 @@ export const Projects = () => {
         trouvaille: {
             title: 'Trouvaille',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078958/Screen_Shot_2023-03-17_at_1.42.16_PM_fbqvtq.png',
-            body: 'Trouvaille enables travelers to discover, create, and share personal adventures with others. The goal of Trouvaille is to make rare experiences more accessible and, in turn, create a trip full of “hidden gems” and unique adventures for those seeking the path less traveled.',
+            body: 'Trouvaille enables travelers to discover, create, and share personal adventures with each other for those who want to take the road less traveled',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078456/Screen_Shot_2023-01-09_at_12.46.40_PM_sv2crx.png',
-            detail: ['Full-stack web application where travelers can discover and share personal adventures for those who want to take the road less traveled', 'Utilized JavaScript (React) and Python (Django) with CRUD functionality and REST API', 'Integration testing', 'API testing in Postman', 'Responsive UX/UI'],
+            detail: ['Full-stack web application where travelers can discover, create, and share personal adventures among fellow travelers', 'Utilized JavaScript (React) and Python (Django) with CRUD functionality and REST API', 'Integration testing', 'API testing in Postman', 'Responsive UX/UI'],
             tech: ['javaScript', 'react', 'python', 'django', 'HTML5', 'CSS', 'git'],
             links: {
                 frontEndCode: {
@@ -30,9 +30,9 @@ export const Projects = () => {
         makr: {
             title: 'Makr',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679076417/Screen_Shot_2023-03-17_at_1.06.03_PM_yrdqtu.png',
-            body: 'Makr is a platform where DIYers can connect with professionals for expert advice on specific project needs. By making expert feedback more accessible and customized, the goal is to help Makrs accomplish higher quality projects more efficiently and, in turn, create additional employment and remote opportunities for professionals.',
+            body: 'Makr is a platform for the makers, the creators, and the DIYers where creativity meets confidence by making expert feedback more accessible',
             cover: makrVideo,
-            detail: ['Front-end web application where DIYers can connect with professionals for expert advice on their project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
+            detail: ['Front-end web application where DIYers can connect with professionals for expert advice on specific project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
             tech: ['javaScript', 'react', 'JSON', 'HTML5', 'CSS', 'git'],
             links: {
                 demo: {
@@ -48,9 +48,9 @@ export const Projects = () => {
         spec: {
             title: 'Spec',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
-            body: 'Spec is a Web3 platform that generates live, multi-chain, Postgres tables for all events and transactions in a blockchain protocol. It automates the process of decoding, enriching, integrating, and maintaining data through instant, custom tables, allowing users to seamlessly index and query transactions with high efficiency and real-time accuracy.',
+            body: 'Spec is a Web3 platform that generates live, multi-chain, Postgres tables for all events and transactions in a blockchain protocol',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
-            detail: ['Web3 electron app and web application where developers can index and query live, multi-chain blockchain data though custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
+            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data though instant, custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
             tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
             links: {
                 blog: {

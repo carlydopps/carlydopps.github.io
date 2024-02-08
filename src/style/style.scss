@@ -1,5 +1,5 @@
 * {
-    scroll-margin-top: 6rem;
+    scroll-margin-top: 5rem;
 }
 
 #root {
@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    padding: 2rem !important;
+    padding: 1.5rem !important;
     justify-content: right !important;
     flex-wrap: nowrap;
     position: fixed !important;
@@ -81,7 +81,7 @@
 
 .scrolled {
     background-color: $backgroundDark;
-    outline: solid 1rem $borderTransparent;
+    outline: solid 0.5rem $borderTransparent;
 }
 
 .hide {
