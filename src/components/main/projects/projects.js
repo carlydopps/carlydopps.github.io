@@ -12,17 +12,17 @@ export const Projects = () => {
         trouvaille: {
             title: 'Trouvaille',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078958/Screen_Shot_2023-03-17_at_1.42.16_PM_fbqvtq.png',
-            body: 'Trouvaille enables travelers to discover, create, and share personal adventures with each other for those who want to take the road less traveled',
+            body: 'Travel app that enables users to discover, create, and share personal adventures for those who want to take the road less traveled',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078456/Screen_Shot_2023-01-09_at_12.46.40_PM_sv2crx.png',
-            detail: ['Full-stack web application where travelers can discover, create, and share personal adventures among fellow travelers', 'Utilized JavaScript (React) and Python (Django) with CRUD functionality and REST API', 'Integration testing', 'API testing in Postman', 'Responsive UX/UI'],
+            detail: ['Allows users to create boards to organize adventures, prioritize trips based on user priorities, plan for upcoming trips, and interact with, save, and manage trips in their network of travelers', 'Full stack application with full CRUD functionality and RESTful API using JavaScript (React) and Python (Django)', 'Responsive UX/UI using Bootstrap and CSS Flexbox'],
             tech: ['javaScript', 'react', 'python', 'django', 'HTML5', 'CSS', 'git'],
             links: {
                 frontEndCode: {
-                    title: 'Front-end Code',
+                    title: 'Frontend Code',
                     url: 'https://github.com/carlydopps/trouvaille'
                 },
                 backEndCode: {
-                    title: 'Back-end Code',
+                    title: 'Backend Code',
                     url: 'https://github.com/carlydopps/trouvaille-server'
                 },
             },
@@ -30,9 +30,9 @@ export const Projects = () => {
         makr: {
             title: 'Makr',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679076417/Screen_Shot_2023-03-17_at_1.06.03_PM_yrdqtu.png',
-            body: 'Makr is a platform for the makers, the creators, and the DIYers where creativity meets confidence by making expert feedback more accessible',
+            body: 'Platform where DIYers can connect with professionals for expert advice on specific project needs',
             cover: makrVideo,
-            detail: ['Front-end web application where DIYers can connect with professionals for expert advice on specific project needs', 'Utilized JavaScript (React) and JSON with full CRUD functionality', 'Responsive UX/UI'],
+            detail: ['Allows users to schedule sessions with professionals for project feedback, track and manage project requests, showcase portfolios of work, and share reviews with other users', 'Frontend web application with full CRUD functionality using JavaScript (React)', 'Responsive UX/UI'],
             tech: ['javaScript', 'react', 'JSON', 'HTML5', 'CSS', 'git'],
             links: {
                 demo: {
@@ -40,7 +40,7 @@ export const Projects = () => {
                     url: 'https://vimeo.com/783445138'
                 },
                 frontEndCode: {
-                    title: 'Front-end Code',
+                    title: 'Frontend Code',
                     url: 'https://github.com/carlydopps/makr'
                 },
             },
@@ -48,9 +48,9 @@ export const Projects = () => {
         spec: {
             title: 'Spec',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
-            body: 'Spec is a Web3 application that generates live, multi-chain, Postgres tables for events and transactions in a blockchain protocol',
+            body: 'Web3 application that generates live, multi-chain, Postgres tables for events and transactions in blockchain protocols',
             cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
-            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data through instant, custom Postgres tables', 'Utilized Javascript (React), Typescript (TypeORM), PostgreSQL, Deno', 'Integrated delayed polling jobs, serverless functions, Docker, and Kubernetes to handle live data streams', 'Utilized command line interface to condense complex back-end logic into singular CLI commands to provide an efficient, intuitive programming experience '],
+            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data through instant, custom Postgres tables', 'Full-Text Search utilizing infinite scroll and PostgreSQL TSVECTOR for partial match, filtering, and logical operators', 'CLI prompt commands allow users to programmatically track relevant blockchain events through a single command', 'Calculates event frequencies on live block data, tracks deltas, and incrementally rolls back database and cache across a 30TB database during blockchain reorgs', 'Utilizes Typescript (TypeORM), Javascript (React), PostgreSQL, Electron, Redis'],
             tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
             links: {
                 blog: {

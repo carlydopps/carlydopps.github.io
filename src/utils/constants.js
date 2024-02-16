@@ -1,4 +1,4 @@
-import { algolia, bash, bootstrap, CSS, deno, django, electron, email, git, github, HTML5, javaScript, linkedIn, postgreSQL, postman, python, react, redis, sass, typeORM, typeScript } from "./svgs";
+import { algolia, bash, bootstrap, CSS, deno, django, electron, email, git, gitHub, HTML5, javaScript, linkedIn, postgreSQL, postman, python, react, redis, sass, typeORM, typeScript } from "./svgs";
 
 export const pages = ['home', 'projects', 'tech', 'about']
 
@@ -7,8 +7,8 @@ export const contacts = {
         title: 'LinkedIn',
         link: 'https://www.linkedin.com/in/carlydopps/',
     },
-    github: {
-        title: 'Github',
+    gitHub: {
+        title: 'GitHub',
         link: 'https://github.com/carlydopps',
     },
     email: {
@@ -40,7 +40,7 @@ export const tech = {
 
 export const icons = {
     linkedIn: linkedIn(),
-    github: github(),
+    gitHub: gitHub(),
     email: email(),
     python: python(),
     django: django(),

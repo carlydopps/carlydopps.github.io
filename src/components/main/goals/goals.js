@@ -1,7 +1,7 @@
 export const Goals = () => {
     const goals = {
         5: `I want to dive into a dynamic, fast-paced environment. I like the idea of taking on new challenges each day and knowing we can rely on our strong team to get through it. My previous career taught me that stagnancy scares me while a little chaos energizes me, so I want to lean into that to learn and grow as much as I can.`,
-        10: `I hope to work toward full-stack. I like seeing the full process connect from backend to frontend and the combination of the creativity of front-end combined with the deep work of back-end.`,
+        10: `I hope to work toward full stack. I like seeing the full process connect from backend to frontend and the combination of the creativity of frontend combined with the deep work of backend.`,
         30: `Under construction! I'm excited to dive into learning right now and stay open to where that takes me. I hope I can take what I've eventually learnt throughout my career in my failures and successes and pass that knowledge on to future students.`,
     }
 
