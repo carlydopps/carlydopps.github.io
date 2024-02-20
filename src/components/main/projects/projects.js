@@ -18,12 +18,12 @@ export const Projects = () => {
             tech: ['javaScript', 'react', 'python', 'django', 'HTML5', 'CSS', 'git'],
             links: {
                 frontEndCode: {
-                    title: 'Frontend Code',
-                    url: 'https://github.com/carlydopps/trouvaille'
+                    title: 'View website',
+                    url: 'https://trouvaille-frontend.vercel.app'
                 },
                 backEndCode: {
-                    title: 'Backend Code',
-                    url: 'https://github.com/carlydopps/trouvaille-server'
+                    title: 'View repository',
+                    url: 'https://github.com/carlydopps/trouvaille'
                 },
             },
         },
