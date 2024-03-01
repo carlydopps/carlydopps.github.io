@@ -43,7 +43,7 @@ export const About = () => {
         </section>
         <section className='about-personal'>
             <div className='about-personal__photos'>
-                <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837100/image_4_qnkc9n.jpg'/>
+                <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837100/Trouvaille/image_4_qnkc9n.jpg'/>
                 <img className='img-responsive travel-grid-img' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837098/image_3_dtilev.jpg'/>
                 <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1678837286/IMG_8045_zu2kio.jpg'/>
                 <img className='img-responsive' src='https://res.cloudinary.com/dupram4w7/image/upload/v1673365249/eicshdaqcbjw2wnrsxyc.jpg'/>
