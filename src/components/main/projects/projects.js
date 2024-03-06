@@ -9,6 +9,20 @@ export const Projects = () => {
     })
     const vid = document.getElementById('projectVideo')
     const projects = {
+        spec: {
+            title: 'Spec',
+            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
+            body: 'Web3 application that generates live, multi-chain, Postgres tables for events and transactions in blockchain protocols',
+            cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
+            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data through instant, custom Postgres tables', 'Full-Text Search utilizing infinite scroll and PostgreSQL TSVECTOR for partial match, filtering, and logical operators', 'CLI prompt commands allow users to programmatically track relevant blockchain events through a single command', 'Calculates event frequencies on live block data, tracks deltas, and incrementally rolls back database and cache across a 30TB database during blockchain reorgs', 'Utilizes Typescript (TypeORM), Javascript (React), PostgreSQL, Electron, Redis'],
+            tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
+            links: {
+                blog: {
+                    title: 'View blog',
+                    url: 'https://spec.dev/'
+                },
+            },
+        },
         trouvaille: {
             title: 'Trouvaille',
             thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078958/Screen_Shot_2023-03-17_at_1.42.16_PM_fbqvtq.png',
@@ -44,21 +58,7 @@ export const Projects = () => {
                     url: 'https://github.com/carlydopps/makr'
                 },
             },
-        },
-        spec: {
-            title: 'Spec',
-            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706813690/Screen_Shot_2024-02-01_at_12.54.33_PM_bmuthq.png',
-            body: 'Web3 application that generates live, multi-chain, Postgres tables for events and transactions in blockchain protocols',
-            cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1706314751/Screenshot_2024-01-26_at_6.18.22_PM_k0xrdq.png',
-            detail: ['Automates the process of decoding, enriching, integrating, and maintaining blockchain data, allowing developers to index and query data through instant, custom Postgres tables', 'Full-Text Search utilizing infinite scroll and PostgreSQL TSVECTOR for partial match, filtering, and logical operators', 'CLI prompt commands allow users to programmatically track relevant blockchain events through a single command', 'Calculates event frequencies on live block data, tracks deltas, and incrementally rolls back database and cache across a 30TB database during blockchain reorgs', 'Utilizes Typescript (TypeORM), Javascript (React), PostgreSQL, Electron, Redis'],
-            tech: ['javaScript', 'react', 'typeScript', 'typeORM', 'postgreSQL', 'deno', 'electron','sass', 'redis', 'algolia', 'git'],
-            links: {
-                blog: {
-                    title: 'View blog',
-                    url: 'https://spec.dev/'
-                },
-            },
-        },
+        }
     }
 
     return <div id='projects' className='projects'>
