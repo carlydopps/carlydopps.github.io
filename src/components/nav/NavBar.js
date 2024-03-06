@@ -10,29 +10,15 @@ export const NavBar = () => {
         })
     }
 
-    let scrollTarget = 100
-    let hideTarget = 100
-    window.onload = function() {
-        const target = document.getElementById('header-img').getBoundingClientRect().bottom - document.getElementById('header-img').getBoundingClientRect().top
-        hideTarget = target*0.8
-        scrollTarget = target*0.75
-    }
-
-    window.onresize = function() {
-        const target = document.getElementById('header-img').getBoundingClientRect().bottom - document.getElementById('header-img').getBoundingClientRect().top
-        hideTarget = target*0.8
-        scrollTarget = target*0.75
-    }
-
     window.onscroll = function() {
         const navbar = document.getElementById('navbar')
-        if (window.scrollY > scrollTarget) {
+        if (window.scrollY > 200) {
           navbar.classList.add('scrolled')
         } else {
           navbar.classList.remove('scrolled')
         }
 
-        if (window.scrollY > hideTarget) {
+        if (window.scrollY > 200) {
             navbar.classList.add('hide')
         } else {
             navbar.classList.remove('hide')
