@@ -17,9 +17,47 @@
     flex-wrap: nowrap;
     position: fixed !important;
     width: 100%;
-    z-index: 1;
+    z-index: 5;
     transition: all 0.5s ease-in;
- 
+
+    .navbar__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70vw;
+
+        .home-title {
+            font-size: 3rem;
+            font-weight: 500;
+            font-family: $fontCursive;
+            letter-spacing: 0;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        .nav {
+            letter-spacing: 0.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .nav-link {
+                text-transform: uppercase;
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+                list-style: none;
+            }
+
+            .nav-link:hover {
+                color: white;
+                transform: scale(1.03);
+                font-weight: 700;
+            }
+        }
+    }
+
     .navbar__icons {
         display: flex;
         align-items: center;
@@ -35,44 +73,7 @@
 
             svg:hover {
                 fill: white !important;
-                transform: translateY(-0.1rem);
-            }
-        }
-    }
-
-    .navbar__links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 70vw;
-
-        .home-title {
-            font-size: 3rem;
-            font-weight: 500;
-            font-family: $fontCursive;
-            letter-spacing: 0;
-            color: $fontLight;
-            text-align: center;
-            margin: 0;
-        }
-
-        .nav {
-            letter-spacing: 0.2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-    
-            .nav-link {
-                text-transform: uppercase;
-                color: $fontLight;
-                font-weight: 600;
-                cursor: pointer;
-                list-style: none;
-            }
-
-            .nav-link:hover {
-                color: white;
-                transform: scale(1.01);
+                transform: scale(1.05);
                 font-weight: 700;
             }
         }
