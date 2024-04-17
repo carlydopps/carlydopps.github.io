@@ -17,28 +17,8 @@
     flex-wrap: nowrap;
     position: fixed !important;
     width: 100%;
-    z-index: 1;
+    z-index: 5;
     transition: all 0.5s ease-in;
- 
-    .navbar__icons {
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        width: 15vw;
-        padding-right: 5rem;
-
-        button {
-            color: $fontLight;
-            background: none;
-            border: none;
-            justify-content: right;
-
-            svg:hover {
-                fill: white !important;
-                transform: translateY(-0.1rem);
-            }
-        }
-    }
 
     .navbar__links {
         display: flex;
@@ -51,7 +31,7 @@
             font-weight: 500;
             font-family: $fontCursive;
             letter-spacing: 0;
-            color: $fontLight;
+            color: white;
             text-align: center;
             margin: 0;
         }
@@ -64,7 +44,7 @@
     
             .nav-link {
                 text-transform: uppercase;
-                color: $fontLight;
+                color: white;
                 font-weight: 600;
                 cursor: pointer;
                 list-style: none;
@@ -72,7 +52,28 @@
 
             .nav-link:hover {
                 color: white;
-                transform: scale(1.01);
+                transform: scale(1.03);
+                font-weight: 700;
+            }
+        }
+    }
+
+    .navbar__icons {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 15vw;
+        padding-right: 5rem;
+
+        button {
+            color: rgba(255, 255, 255, 0.839);
+            background: none;
+            border: none;
+            justify-content: right;
+
+            svg:hover {
+                fill: white !important;
+                transform: scale(1.05);
                 font-weight: 700;
             }
         }
