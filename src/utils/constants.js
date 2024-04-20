@@ -1,4 +1,4 @@
-import { algolia, bash, bootstrap, CSS, deno, django, electron, email, git, gitHub, HTML5, javaScript, linkedIn, postgreSQL, postman, python, react, redis, sass, typeORM, typeScript } from "./svgs";
+import { algolia, AWS, bash, bootstrap, CSS, deno, django, electron, email, git, gitHub, HTML5, javaScript, linkedIn, postgreSQL, postman, python, react, redis, sass, SQL, typeORM, typeScript } from "./svgs";
 
 export const pages = ['home', 'projects', 'tech', 'about']
 
@@ -18,12 +18,13 @@ export const contacts = {
 }
 
 export const tech = {
-    PYTHON: 'python',
-    DJANGO: 'django',
     JAVASCRIPT: 'javaScript',
-    REACT: 'react',
     TYPESCRIPT: 'typeScript',
+    PYTHON: 'python',
+    SQL: 'SQL',
+    REACT: 'react',
     TYPEORM: 'typeORM',
+    DJANGO: 'django',
     POSTGRESQL: 'postgreSQL',
     REDIS: 'redis',
     ELECTRON: 'electron',
@@ -36,6 +37,7 @@ export const tech = {
     GIT: 'git',
     POSTMAN: 'postman',
     ALGOLIA: 'algolia',
+    AWS: 'AWS',
 }
 
 export const icons = {
@@ -45,6 +47,7 @@ export const icons = {
     python: python(),
     django: django(),
     javaScript: javaScript(),
+    SQL: SQL(),
     react: react(),
     postgreSQL: postgreSQL(),
     typeScript: typeScript(),
@@ -60,4 +63,5 @@ export const icons = {
     HTML5: HTML5(),
     CSS: CSS(),
     bootstrap: bootstrap(),
+    AWS: AWS(),
 }
