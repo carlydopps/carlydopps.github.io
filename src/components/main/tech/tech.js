@@ -3,7 +3,7 @@ import { icons, tech } from "../../../utils/constants"
 export const Tech = () => {
     const techStack = {
         technologies: Object.values(tech),
-        skills: ['Object Oriented Programming (OOP)', 'Unit and Integration Testing', 'Debugging and Troubleshooting', 'Git version control', 'Command Line Interface (CLI)', 'RESTful APIs', 'Full-Text Search', 'Serverless functions', 'Poller jobs', 'GitHub apps', 'Entity Relationship Diagrams (ERDs)', 'Wireframing'],
+        skills: ['REST APIs', 'Full-Text Search', 'Git version control', 'Edge functions', 'Poller jobs', 'GitHub apps', 'Object Oriented Programming (OOP)', 'Unit and Integration Testing', 'Debugging and Troubleshooting', 'Command Line Interface (CLI)', 'Entity Relationship Diagrams (ERDs)', 'User Interface Design', 'Wireframing'],
     }
 
     return <div id='tech' className='tech'>

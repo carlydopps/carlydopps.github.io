@@ -25,14 +25,14 @@ export const Projects = () => {
         },
         trouvaille: {
             title: 'Trouvaille',
-            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078958/Screen_Shot_2023-03-17_at_1.42.16_PM_fbqvtq.png',
+            thumbnail: 'https://res.cloudinary.com/dupram4w7/image/upload/v1713578399/Screen_Shot_2024-04-19_at_8.58.24_PM_e38fuh.png',
             body: 'Travel app that enables users to discover, create, and share personal adventures for those who want to take the road less traveled',
-            cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1679078456/Screen_Shot_2023-01-09_at_12.46.40_PM_sv2crx.png',
+            cover: 'https://res.cloudinary.com/dupram4w7/image/upload/v1713578998/Screen_Shot_2024-04-19_at_9.03.02_PM_ccwst9.png',
             detail: ['Allows users to create boards to organize adventures, prioritize trips based on user priorities, plan for upcoming trips, and interact with, save, and manage trips in their network of travelers', 'Full stack application with full CRUD functionality and RESTful API using JavaScript (React) and Python (Django)', 'Responsive UX/UI using Bootstrap and CSS Flexbox'],
             tech: ['javaScript', 'react', 'python', 'django', 'HTML5', 'CSS', 'git'],
             links: {
                 frontEndCode: {
-                    title: 'View website',
+                    title: 'View deployment',
                     url: 'https://trouvaille-frontend.vercel.app'
                 },
                 backEndCode: {
